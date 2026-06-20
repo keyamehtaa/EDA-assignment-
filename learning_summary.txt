@@ -1,0 +1,24 @@
+EDA Learning Summary
+For this assignment, I performed Exploratory Data Analysis (EDA) on the MBA Supply Chain dataset. 
+Through this dataset, I was able to understand how different factors like product type, transportation mode,
+supplier performance, and costs are connected within a supply chain system. 
+It helped me see how real-world business data is structured and how multiple variables together 
+influence overall efficiency and outcomes.
+At the beginning, I loaded the dataset using pandas and explored it using 
+functions like head(), info(), and describe(). This gave me a basic idea of the dataset structure, 
+types of data, and summary statistics. I also checked for missing values and duplicate records,
+which is an important step before doing any analysis. Fortunately, the dataset was mostly clean,
+but understanding how to handle such issues was useful.
+One of the challenges I faced was deciding which visualizations to use and how to interpret them properly. 
+Initially, I created graphs without clear understanding, but gradually I learned how histograms 
+help in understanding distribution, countplots help compare categories, and scatter plots show relationships between variables.
+The correlation heatmap was especially helpful in identifying strong and weak relationships between numerical features.
+Using seaborn and matplotlib, I created multiple visualizations like histograms, bar plots, boxplots,
+and scatter plots. Among these, the heatmap and boxplots were the most useful because they clearly 
+showed trends and outliers in the data.
+From the analysis, I observed that certain transportation modes had higher costs, and some suppliers 
+performed better consistently. I also noticed patterns in product demand and pricing that could affect 
+decision-making in supply chain management.
+Overall, this assignment helped me gain practical experience with Python libraries like
+pandas, numpy, seaborn, and matplotlib. More importantly, I understood how EDA helps in extracting
+meaningful insights from raw data and supports better decision-making.
